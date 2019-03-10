@@ -22,11 +22,11 @@ When registering a new client, `Valid redirect URIs` must be set. This must be t
 
 For example if hosting locally:
 
-`$baseUrl =  'http://localhost/path/to/folder/`
+`$baseUrl =  'http://localhost/path/to/folder/action.php`
 
 Or if remotely:
 
-`$baseUrl =  'http://example.com/path/to/folder/';`
+`$baseUrl =  'http://example.com/path/to/folder/action.php';`
 
 After setting all required fields click register and a new client is created.
 
