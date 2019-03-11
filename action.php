@@ -10,10 +10,7 @@
 		$response = curl_exec($curl);
 		curl_close($curl);
 		return json_decode($response);
-	}
-
-	print_r($_SESSION["clientSecret"]);
-
+	}	
 
 	$data = array();
 	$data['client_id'] = $_SESSION["clientId"];
